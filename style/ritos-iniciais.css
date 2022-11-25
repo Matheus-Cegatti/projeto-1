@@ -1,0 +1,67 @@
+.ritos-inciais {
+    font-family: var(--fonte-textos);
+    line-height: 1.5rem;
+}
+
+.titulo-sessao {
+    font-size: 1.5rem;
+    border-radius: 25px;
+    font-family: var(--fonte-textos);
+    background-color: var(--fundo-texto);
+    font-weight: 700;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin: 0 auto  ;
+    margin-top: 0.5rem;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.cabecalho-sessao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    border-bottom: 0.3px dotted var(--bordas);
+    padding-bottom: 0.3rem;
+}
+
+.numeral {
+    background-color: var(--fundo-numeral);
+    border-radius: 50%;
+    text-align: center;
+    width: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cor-numeros);
+    margin-right: 1rem;
+}
+
+.canto-entrada {
+    margin-bottom: 1rem;
+    
+}
+
+
+.pos-saudacao {
+    background-color: var(--fundo-texto);
+    padding: 0.5rem;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.silencio {
+    text-align: center;
+    margin-bottom: 0.3rem;
+    color: var(--cor-titulos);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo-sessao {
+        font-size: 0.9rem;
+    }
+}

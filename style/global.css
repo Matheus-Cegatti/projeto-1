@@ -1,0 +1,10 @@
+:root {
+    --fonte-titulo: 'Kanit', sans-serif;
+    --fonte-textos: 'Montserrat', sans-serif;
+    --cor-titulos: #7FB77E;
+    --cor-numeros: #F9F9F7;
+    --fundo-texto: #DEF5E5;
+    --bordas: #8EC3B0;
+    --fundo-numeral: #54B435;
+    --numero-pagina: #3AB0FF;
+}

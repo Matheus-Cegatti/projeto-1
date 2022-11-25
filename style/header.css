@@ -1,0 +1,39 @@
+.cabecalho-principal {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2.5px solid var(--bordas);
+}
+
+.logo-titulo {
+    width: 10%;
+    margin: 1rem 0 1rem 1.5rem;
+
+}
+
+.titulo-dia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 175px;
+}
+
+.titulo-principal,
+.subtitulo {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-titulos);
+}
+
+.titulo-principal {
+    font-size: 3.5rem;
+}
+
+.descricao-cabecalho {
+    background-color: var(--fundo-texto);
+    padding: 0.5rem;
+    border-radius: 25px;
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+}

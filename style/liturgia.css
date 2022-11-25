@@ -1,0 +1,21 @@
+.liturgia-palavra {
+    font-family: var(--fonte-textos);
+    line-height: 1.5rem;
+    padding-top: 3.5rem;
+}
+
+.leitura {
+    text-align: end;
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+.introducao-liturgia {
+    margin-bottom: 1rem;
+}
+
+.numero-salmo {
+    color: var(--cor-titulos);
+    font-weight: 600;
+}
+

@@ -1,0 +1,32 @@
+footer {
+    margin-top: 0.5rem;
+    border-top: 1px solid var(--bordas);
+    padding: 1rem;
+}
+
+.numero-pagina{
+    background-color: var(--numero-pagina);
+    border-radius: 50%;
+    text-align: center;
+    width: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cor-numeros);
+    margin-right: 1rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo {
+    width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .img-logo {
+        width: 18%;
+    }
+}
