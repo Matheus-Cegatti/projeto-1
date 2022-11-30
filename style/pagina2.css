@@ -1,0 +1,22 @@
+.cabecalho-meio {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0 0.5rem 0 ;
+}
+
+.primeiro-cabecalho {
+    margin-top: 1rem;
+}
+
+.titulo-central {
+    width: 5%;
+}
+
+.cruz-folheto {
+    width: 7%;
+}
+
+.numero-salmo {
+    color: var(--numero-salmo);
+    font-weight: 700;
+}

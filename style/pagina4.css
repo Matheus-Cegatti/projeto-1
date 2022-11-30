@@ -1,0 +1,37 @@
+.texto-final{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: var(--texto-final);
+    background-color: var(--fundo-texto);
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 25px;
+    line-height: 1.5rem;
+}
+.titulo-final {
+    text-align: center;
+    padding-bottom: 0.3rem;
+}
+
+.texto-final1 {
+    padding-right: 1rem
+}
+
+.texto-final2 {
+    padding-top: 1.3rem;
+}
+
+.leitura-semana {
+    font-family: var(--fonte-textos);
+    border-radius: 25px;
+    line-height: 1.5rem;
+    background-color: var(--leitura-semana);
+    padding: 0 0 0 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.titulo-semana {
+    font-weight: 700;
+}
