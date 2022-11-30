@@ -8,10 +8,14 @@
     font-weight: 500;
     border-radius: 25px;
     line-height: 1.5rem;
+    margin-left: 2rem;
+    padding-right: 1rem;
 }
 .titulo-final {
     text-align: center;
     padding-bottom: 0.3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .texto-final1 {
@@ -34,4 +38,10 @@
 
 .titulo-semana {
     font-weight: 700;
+}
+
+.div-final {
+    height: 100%;
+    margin-left: 2rem;
+    padding-right: 1rem;
 }
